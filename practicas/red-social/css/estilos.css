@@ -1,0 +1,23 @@
+:root{
+    --texto: rgba(255,255,255,.7);
+    --blanco:#fff;
+    --input:#3a3b3c;
+    --input-hover:#4b4d4e;
+    --activo:#2088FF;
+    --gris-claro:#888388;
+    --fondo-contenido:#242526;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #18191a;
+    color: var(--texto);
+}
+a{
+    color: var(--texto);
+    text-decoration: none;
+}
