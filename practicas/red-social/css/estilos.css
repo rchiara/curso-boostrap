@@ -21,3 +21,37 @@ a{
     color: var(--texto);
     text-decoration: none;
 }
+
+/*++++++++++++++++++++*/
+/*++++++ HEADER ++++++*/
+/*++++++++++++++++++++*/
+header{
+    background: var(--fondo-contenido);
+    .logo{
+        display: inline-block;
+        svg{
+            color: var(--blanco);
+            width: 35px;
+            height: 35px;
+        }
+    }
+    .barra-busqueda{
+        position: relative;
+        width: 100%;
+        input{
+            width: 100%;
+            border: none;
+            background: var(--input);
+            color: var(--texto);
+            height: 40px;
+            border-radius: 100px;
+            padding: 0 20px 0 40px;
+        }
+        .icono{
+            position: absolute;
+            top: 6px; /*de arriba a abajo lo bajo 6 pixeles */
+            left: 15px;
+            color: var(--texto);
+        }
+    }
+}
