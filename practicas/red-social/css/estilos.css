@@ -54,4 +54,31 @@ header{
             color: var(--texto);
         }
     }
+
+    /* Menu Principal */
+    .menu{
+        a{
+            display: inline-block;
+            padding: 10px 40px;
+            svg{
+                width: 25px;
+                height: 25px;
+            }
+        }
+        a:hover{
+            color: var(--texto);
+            background: var(--input);
+            border-radius: 5px;
+        }
+        .active{
+            border-bottom: 4px solid var(--activo);
+            color:var(--activo);
+        }
+        .active:hover{
+            background: none;
+            border-radius: 0px;
+            color:var(--activo);
+        }
+    }
 }
+
