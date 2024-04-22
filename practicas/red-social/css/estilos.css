@@ -110,3 +110,21 @@ header .botones .perfil{
         margin-right: 5px;
     }
 }
+
+/* MEDIAQUERIES */
+/* dispositivo lg */
+@media screen and (max-width:992px) {
+    header {
+        padding-top: 10px;
+    }
+    .menu{
+        margin-top: 10px;
+    }
+}
+
+/* dispositivo xl */
+@media screen and (max-width:1200px) {
+    header .menu a{
+        padding: 10px 20px;
+    }
+}
