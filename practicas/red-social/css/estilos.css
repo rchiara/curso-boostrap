@@ -111,7 +111,64 @@ header .botones .perfil{
     }
 }
 
+/* Aside */
+aside{
+    padding-top: 60px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/*Aside Enlaces rapidos */
+.enlaces-rapidos > nav a{
+    display: flex;
+    align-items: center;
+    color: var(--blanco);
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+.enlaces-rapidos > nav a:hover{
+    background: var(--input-hover);
+}
+.enlaces-rapidos .perfil img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.enlaces-rapidos .icono{
+    margin-right: 20px;
+    svg{
+        height: 20px;
+        width: 20px;
+    }
+}
+
+/* Footer */
+footer{
+    margin: 40px 0;
+}
+footer nav a{
+    font-size: 14px;
+    margin-right: 7px;
+    color: var(--gris-claro);
+}
+footer nav a:hover{
+    text-decoration: underline;
+    color: var(--gris-claro);
+}
+
+
+
+
 /* MEDIAQUERIES */
+/* dispositivo Md */
+@media screen and (max-width:768px){
+    .enlaces-rapidos{
+        display: none;
+    }
+}
+
+
 /* dispositivo lg */
 @media screen and (max-width:992px) {
     header {
@@ -119,6 +176,9 @@ header .botones .perfil{
     }
     .menu{
         margin-top: 10px;
+    }
+    aside{
+        padding-top: 130px;
     }
 }
 
