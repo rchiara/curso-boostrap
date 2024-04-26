@@ -115,7 +115,7 @@ header .botones .perfil{
 aside{
     padding-top: 60px;
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
 }
 
 /*Aside Enlaces rapidos */
@@ -158,12 +158,47 @@ footer nav a:hover{
 }
 
 
-
+/* Contactos */
+.contactos .seccion{
+    margin-bottom: 20px;
+}
+.contactos .titulo{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--gris-claro);
+    margin-bottom: 10px;
+}
+.contactos .publicidad{
+    display: block;
+    max-height: 100px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.contactos .publicidad img{
+    width: 100%;
+}
+.contactos nav a{
+    display: flex;
+    align-items: center;
+    color: var(--blanco);
+    padding: 10px;
+    border-radius: 5px;
+}
+.contactos nav a:hover{
+    background: var(--input-hover);
+}
+.contactos nav a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
 
 /* MEDIAQUERIES */
 /* dispositivo Md */
 @media screen and (max-width:768px){
-    .enlaces-rapidos{
+    .enlaces-rapidos,.contactos{
         display: none;
     }
 }
